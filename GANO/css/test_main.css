@@ -57,17 +57,17 @@
   height: 300px;
 }
 .patients_plus_color {
-  color: #000 !important;
-  background-color: #FF9999 !important;
+  color: rgb(79, 139, 77) !important;
+  background-color: #d9fdb8 !important;
   opacity: 0.7
 }
 
 
 .color_1 {
-  background-color:#FF9999 !important;
+  background-color:#aaeb91 !important;
 }
 .color_2 {
-  background-color:#FFCBC8 !important;
+  background-color:#ebffd5 !important;
 }
 .color_3 {
   background-color:#444F54 !important;
