@@ -18,7 +18,26 @@
 
   <title>Document</title>
   <script language="javascript">
+
     function showPopup() { window.open("./information.html", "a", "width=400, height=300, left=100, top=50"); }
+
+    function check(){
+
+        if(document.getElementById("p_id").value==""){
+            alert("Parent ID를 입력하세요");
+            return;
+        }
+
+        if(document.getElementById("p_date").value==""){
+            alert("올바른 날짜를 입력하세요");
+            return;
+        }
+
+        frm.submit();
+
+    
+    }
+
     </script>
 
 
@@ -140,9 +159,10 @@
     <div id="P_plusModal" class="dn-modal">
       <div class="p_add_grid w3-animate-top dn-color w3-card-4 text_bolder">
         <div class="plus_1 w3-teal">
-          <p class="w3-large mt-2">Add Patient<span onclick="P_plusModal_close()" class="w3-button w3-teal w3-large w3-display-topright">×</span></p>
+          <p class="w3-large mt-2">Add Patient<span onclick="check(); P_plusModal_close()" class="w3-button w3-teal w3-large w3-display-topright">×</span></p>
         </div>
 
+        <!--확인 필요-->
         <div class="P_add_1 text_bolder">
           <p class="w3-left-align"><label><i class="fas fa-portrait"></i> Patient id</label></p>
           <input class="w3-input P_plus_border" type="text" placeholder="Patient id" id="p_id">
