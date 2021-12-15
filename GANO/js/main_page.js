@@ -19,10 +19,10 @@ function P_plusModal_open() {
   document.getElementById("P_plusModal").style.display='block';
 }
 
+
 function P_plusModal_close() {
   document.getElementById("P_plusModal").style.display='none';
 }
-
 
 //Edit 화면 팝업창
 function Edit_open(a) {
