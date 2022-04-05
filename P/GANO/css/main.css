@@ -1,0 +1,80 @@
+#main{
+  background-color: rgb(184, 247, 178);
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+}
+.bgpage {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 800px;
+}
+.top_bar {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  column-gap: 600px;
+}
+.patients_list_grid {
+  display: grid;
+  max-width: auto;
+  max-height: 900px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 700px;
+}
+.patients_list_header {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.patients_grid {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 1fr 1fr;
+}
+.patients_item {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.patients_plus {
+  display: grid;
+  height: 300px;
+}
+.patients_plus_color {
+  color: #000 !important;
+  background-color: #fff !important;
+  opacity: 0.7
+}
+.color-1 {
+  background-color:#FBFFE2;
+}
+.color
+.patients_plus_position {
+  position: relative;
+  left: auto;
+  top: 75px;
+}
+#dotted {
+  border: dotted;
+  border-color: grey;
+}
+.button_nonEffect {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap
+}
+.patients_plus_grid {
+  display: grid;
+  max-width: auto;
+  max-height: 400px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px, 300px;
+}
